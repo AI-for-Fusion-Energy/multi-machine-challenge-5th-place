@@ -1,19 +1,26 @@
-[TO BE COMPLETED SOON]
-## FILES:
 
-- FINAL_MMD_JT_HL_CM.ipynb - Preprocessing and Modelling Notebook
+```
+WolfPack
+├── code
+|    ├──best_models
+|    ├──processed_data
+|    ├──basic_processor.py
+|    ├──utils.py
+|    ├──FINAL_MMD_JT_HL_CM.ipynb
+|    └──README.md
+|
+├──hl_2a_train_repo
+├──jtext_train_repo
+├──training_repo
+├──testing_repo
+├──C-Mod_data.zip
+├──HL-2A_data.zip
+├──J-TEXT_data.zip
+└── requirements.txt
+```
 
-- utils.py - scripts for preprocessing jtext, cmod and HL_2A dataset into dataframe for the modelling pipeline
-
-- basic_processor.py basic processor provided to participants by ITU
-
-- FINAL_MMD_JT_processed_sum_feature_extraction_train.csv Preprocessed JTEXT train dataframe.
-
-- FINAL_MMD_HL_processed_sum_feature_extraction_train Preprocessed HL_2A train dataframe
-
-- FINAL_MMD_CM_processed_sum_feature_extraction_train Preprocessed C-MOD train dataframe
-
-- FINAL_MMD_CM_processed_sum_feature_extraction_test Preprocessed C-MOD test dataframe
+### To run code:
+- To set up directory for preprocessing and modelling set rootdir as **WolfPack**, describe by the tree. Afterwards, open any code editor of your choice and navigate to FINAL_MMD_JT_HL_CM.ipynb within the code folder and simply run all to generate and save dataframe for training and testing, and reusing the saved data to train 2 gradient boosting models on 12 folds and saves inference file over probability of 0.51% certainty
 
 - requirements.txt - contains used libraries and their specific versions except jddb which was installed through github
 
