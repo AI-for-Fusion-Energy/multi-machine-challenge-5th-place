@@ -25,6 +25,7 @@ WolfPack
 - requirements.txt - contains used libraries and their specific versions except jddb which was installed through github.
 
 Environment Used: 
+- Visual Studio code
 - Python 3.10.8
 - trained on CPU
 
