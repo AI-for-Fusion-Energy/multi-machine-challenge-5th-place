@@ -20,7 +20,7 @@ WolfPack
 ```
 
 ### To run code:
-- To set up directory for preprocessing and modelling set rootdir as **WolfPack**, describe by the tree. Afterwards, open any code editor of your choice and navigate to FINAL_MMD_JT_HL_CM.ipynb within the code folder and simply run all to generate and save dataframe for training and testing, and reusing the saved data to train 2 gradient boosting models on 12 folds and saves inference file over probability of 0.51% certainty
+- To set up directory for preprocessing and modelling set rootdir/root_working_dir as **WolfPack**, describe by the tree. Afterwards, open any code editor of your choice and navigate to FINAL_MMD_JT_HL_CM.ipynb within the code folder and simply run all to generate and save dataframe for training and testing, and reusing the saved data to train 2 gradient boosting models on 12 folds and saves inference file over probability of 0.51% certainty
 
 - requirements.txt - contains used libraries and their specific versions except jddb which was installed through github.
 
