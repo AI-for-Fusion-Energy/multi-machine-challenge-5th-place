@@ -35,3 +35,5 @@ Environment Used:
 - trained on CPU
 
 Kindly Note to set zip and extracted paths correctly to ensure smooth running of the notebook.
+
+![performance_metrics_MMD](performance_metrics_MMD.png)
